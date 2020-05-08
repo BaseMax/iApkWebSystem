@@ -1,0 +1,10 @@
+User-agent: *
+Host: iapk.org
+Disallow: /en/download/
+Disallow: /sw/download/
+Disallow: /fr/download/
+Disallow: /pt/download/
+Disallow: /de/download/
+Disallow: /ar/download/
+Disallow: /fa/download/
+Sitemap: https://iapk.org/sitemap.xml
