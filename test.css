@@ -1,0 +1,89 @@
+.row {
+	width: 100%;
+	display: inline-block;
+}
+.col-sm-3 {
+	width: 100%;
+	text-align: center;
+}
+.col-sm-9 {
+	width: 100%;
+	text-align: center;
+}
+.col-sm-12 {
+	width: 95%;
+	margin: auto;
+	font-size: 20px;
+}
+.download {
+	height: 50px;
+	padding-top: 12px;
+	font-size: 22px;
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	width: 95%;
+	display: block;
+	line-height: 1.5;
+	border-radius: .3rem;
+	text-align: center;
+	margin: auto;
+}
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	background: #3c3939;
+	line-height: 20px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+nav a {
+	color: white;
+}
+.card-item {
+	width: calc(50% - 13px);
+	border: 1px solid #8f8d8e;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	float: left;
+	height: auto;
+}
+.card-body {
+	margin-bottom: 17px;
+}
+h3.card-title {
+	clear: both;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 13px;
+}
+.card-item a.btn.btn-primary {
+	background: blue;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: -25px;
+}
+@media screen and(max-width: 680px) {
+	.card-item {
+		width: calc(33.3% - 13px);
+	}
+}
+@media screen and(min-width: 320px) {
+	.card-item {
+		width: calc(100% - 10px);
+	}
+}
+.app-content {
+	direction: rtl;
+	text-align: right;
+}
