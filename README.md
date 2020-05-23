@@ -24,6 +24,10 @@ Easy search engine to download the application
 - Persian
 - Arabic
 
+## Depends on
+
+- https://github.com/BaseMax/WebFindAPK
+
 ---------
 
 # Max Base
