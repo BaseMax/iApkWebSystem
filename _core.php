@@ -1,4 +1,9 @@
 <?php
+/*
+ * @Author: Max Base
+ * @Repository: https://github.com/BaseMax/iApkWebSystem
+ * @Website: https://iapk.org/
+*/
 define("LOAD", true);
 include "netphp.php";
 ini_set('display_startup_errors', 1);
